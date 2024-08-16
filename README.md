@@ -6,16 +6,16 @@ App is containerized using Docker, run it with following command:
 docker run -d -it --rm -p 3001:3000 --name news_app_container racic99/news-app
 ```
 
-Use this command to stop running the app, container will be automatically removed afterwards
-
-```bash
-docker kill news_app_container
-```
-
 App is now available on:
 
 ```bash
 http://localhost:3001/
+```
+
+Use this command to stop running the app, container will be automatically removed afterwards
+
+```bash
+docker kill news_app_container
 ```
 
 Task Requirements explanation:
