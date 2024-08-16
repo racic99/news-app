@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.react-datepicker-wrapper {
+  width: 100%;
+}
+
+@media only screen and (min-width: 420px) {
+  .react-datepicker-wrapper {
+    width: 320px;
+  }
+}
